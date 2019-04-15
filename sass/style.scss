@@ -18,7 +18,9 @@ h3 {
 table {
   border-collapse: collapse;
   width: 100%;
-
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
   th {
     padding: 10px;
     background-color: rgb(75, 75, 75);
